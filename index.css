@@ -1,0 +1,46 @@
+h1 {
+	color: grey;
+	font-family: "basic title font", sans-serif;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 25px;
+	margin-bottom: 20px;
+
+}
+body {
+	margin: 8px 0;
+}
+.nav {
+	list-style: none; 
+	padding-left: 0;
+	margin-top: 20px;
+
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+
+}
+.nav a {
+	color: grey;
+	text-decoration: none;
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 10px;
+	letter-spacing: 5px;
+}
+
+.nav li:not(:last-child){
+	border-right: solid thin grey;
+	padding-right: 10px;
+}
+
+.banner-image {
+	width: 100%;
+	height: auto;
+}
+
+.banner-image-wrapper {
+	text-align: center;
+}
